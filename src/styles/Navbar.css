@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-left: 78%;
+    position: relative;
+    bottom: 12px;
+    
+}
+
+.navbar a {
+    background-color: rgb(190, 189, 189);
+    text-align: center;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    padding: 6px;
+    
+}

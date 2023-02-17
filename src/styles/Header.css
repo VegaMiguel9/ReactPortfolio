@@ -1,0 +1,42 @@
+
+
+.header {
+    background-image: linear-gradient(gray, rgb(0, 149, 195));
+    height: 150px;
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-size-adjust: auto;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 2px;
+
+}
+
+.header h1 {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 75px;
+    position: absolute;
+}
+
+@media screen and (max-width: 649px) {
+    .header h1 {
+      font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header h1 {
+      font-size: 45px;
+    }
+}
